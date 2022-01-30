@@ -53,8 +53,10 @@ planet_event = {
 	immediate = {
 		if = {
 			limit = {
-				NOT = { has_deposit = d_patronmoon }	
-				NOT = { has_modifier = no_patronmoon }			
+				NOR = {
+					has_deposit = d_patronmoon
+					has_modifier = no_patronmoon
+				}			
 			}
 			## removed to make it more unique
 		add_modifier = { modifier = no_patronmoon }

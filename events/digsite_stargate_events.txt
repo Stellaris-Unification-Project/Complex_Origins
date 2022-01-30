@@ -93,10 +93,10 @@ fleet_event = {
 			resource = society_research value = 1 max = 1000 min = 1000
 			}
 
-			 every_planet = {
+			 every_system_planet = {
 			 limit = { has_planet_flag = stargate_planet}
-				surveyed = {
-					set_surveyed = yes
+				set_surveyed = {
+					surveyed = yes
 					surveyor = root.owner
 				}
 			 }

@@ -1,5 +1,5 @@
 d_patronmoon = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 
 	icon = d_patronmoon
@@ -38,7 +38,7 @@ d_patronmoon = {
 }
 
 d_patronmoon_bad = {
-	is_for_colonizeable = yes
+	is_for_colonizable = yes
 	category = deposit_cat_rare
 
 	icon = d_patronmoon
